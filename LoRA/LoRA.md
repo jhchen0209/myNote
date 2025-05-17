@@ -42,7 +42,7 @@ $$
 W_0+W = W_0 + BA
 $$
 
-其中 $B\in\mathbb{R}^{d*r}$， $A\in\mathbb{R}^{r*k}$，並且 $r\ll min(d, k)$
+其中 $B \in \mathbb{R}^{d \times r}$， $A \in \mathbb{R}^{r \times k}$，並且 $r \ll \min(d, k)$。
 
 訓練過程中， $W_0$ 凍結不做梯度更新。對 A 做高斯初始化，B 為全 0。在訓練初期， $\Delta W = BA = 0$。
 
